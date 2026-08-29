@@ -1,0 +1,14 @@
+.mode-tabs{position:sticky;top:0;z-index:8;display:flex;gap:8px;padding:12px max(5vw,24px);border-bottom:1px solid #d4cec2;background:rgba(246,243,236,.96);backdrop-filter:blur(10px)}
+.mode-tabs button{padding:10px 22px;border:1px solid #bbb3a5;background:transparent;color:#171714;font-weight:800;cursor:pointer}
+.mode-tabs button.active{border-color:#e8392c;background:#e8392c;color:#fff}
+.standard i{font-style:normal}
+.case-row strong{white-space:pre-line}
+.case-row small{display:block;margin-top:6px}
+body[data-mode="tvc"] .case-row strong,body[data-mode="long"] .case-row strong{font-size:15px;line-height:1.7;font-family:inherit;font-weight:650}
+body[data-mode="tvc"] .drafts textarea{min-height:180px;line-height:1.7}
+body[data-mode="long"] .drafts textarea{min-height:270px;line-height:1.8}
+body[data-mode="tvc"] .workspace,body[data-mode="long"] .workspace{grid-template-columns:minmax(360px,.9fr) minmax(520px,1.5fr)}
+body[data-mode="tvc"] .case-list,body[data-mode="long"] .case-list{max-height:720px;overflow:auto;padding-right:8px}
+body[data-mode="tvc"] .draft-scores strong,body[data-mode="long"] .draft-scores strong,.history-item h3{white-space:pre-line;line-height:1.65}
+@media(max-width:820px){.mode-tabs{position:static;padding:10px 16px}.mode-tabs button{flex:1;padding:10px 6px}body[data-mode] .workspace{grid-template-columns:1fr}body[data-mode="tvc"] .drafts textarea{min-height:150px}body[data-mode="long"] .drafts textarea{min-height:220px}}
+
