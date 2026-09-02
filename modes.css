@@ -2,6 +2,8 @@
 .mode-tabs button{padding:10px 22px;border:1px solid #bbb3a5;background:transparent;color:#171714;font-weight:800;cursor:pointer}
 .mode-tabs button.active{border-color:#e8392c;background:#e8392c;color:#fff}
 .standard i{font-style:normal}
+.adaptive-note{margin:14px 0 22px;padding:13px 15px;border-left:4px solid #e8392c;background:#f2ede3;color:#49443c;font-size:14px;line-height:1.55}
+.adaptive-note strong{color:#e8392c}
 .case-row strong{white-space:pre-line}
 .case-row small{display:block;margin-top:6px}
 body[data-mode="tvc"] .case-row strong,body[data-mode="long"] .case-row strong{font-size:15px;line-height:1.7;font-family:inherit;font-weight:650}
